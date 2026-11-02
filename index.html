@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio landing page for a product designer and front-end developer." />
+    <title>Portfolio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="#top" aria-label="Go to top">
+            <span class="brand-mark">AH</span>
+            <span class="brand-name">Amit Halder</span>
+          </a>
+
+          <nav class="main-nav" aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <a class="button button-primary" href="#contact">Let's talk</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero container" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="pulse" aria-hidden="true"></span>
+              UI/UX Enthusiast · Front-end Developer · Kolkata · Open to new projects
+            </p>
+
+            <h1>
+              Interfaces that feel
+              <span class="highlight">effortless</span>,
+              built to last.
+            </h1>
+
+            <p class="intro">
+              Hi, I'm Amit Halder. I design and build fast, accessible websites and products,
+              from the first sketch to the last pixel in production.
+            </p>
+
+            <div class="cta-row">
+              <a class="button button-primary large" href="#contact">
+                Start a project
+                <span aria-hidden="true">↗</span>
+              </a>
+
+              <a class="text-link" href="#work">
+                See selected work
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-stage">
+              <div class="blob"></div>
+              <div class="panel"></div>
+              <div class="dot"></div>
+              <div class="badge-ring">
+                <svg viewBox="0 0 200 200" role="img" aria-label="Available for work">
+                  <defs>
+                    <path id="ring-path" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"></path>
+                  </defs>
+                  <text>
+                    <textPath href="#ring-path" startOffset="0">
+                      AVAILABLE FOR WORK • [MONTH YEAR] • 
+                    </textPath>
+                  </text>
+                </svg>
+                <span class="badge-arrow">↗</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="marquee" aria-label="Disciplines">
+          <div class="marquee-track">
+            <ul class="marquee-list">
+              <li>Product design</li>
+              <li class="star">✦</li>
+              <li>Front-end development</li>
+              <li class="star">✦</li>
+              <li>Design systems</li>
+              <li class="star">✦</li>
+              <li>Prototyping</li>
+              <li class="star">✦</li>
+              <li>Motion</li>
+              <li class="star">✦</li>
+              <li>Accessibility</li>
+              <li class="star">✦</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section container" id="work">
+          <div class="section-head">
+            <p class="section-kicker">01 — Selected Work</p>
+            <h2>Recent projects</h2>
+            <p class="section-lead">[One line on the kind of problems you like to work on.]</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-media">
+                <span class="project-number">01</span>
+                <div class="project-placeholder">[Project image]</div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <h3>[Project name]</h3>
+                  <p class="project-meta">[Category] · [Year]</p>
+                  <p>[One sentence on the problem you solved and the result you got.]</p>
+                </div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+
+            <article class="project-card stagger">
+              <div class="project-media">
+                <span class="project-number">02</span>
+                <div class="project-placeholder">[Project image]</div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <h3>[Project name]</h3>
+                  <p class="project-meta">[Category] · [Year]</p>
+                  <p>[One sentence on the problem you solved and the result you got.]</p>
+                </div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media">
+                <span class="project-number">03</span>
+                <div class="project-placeholder">[Project image]</div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <h3>[Project name]</h3>
+                  <p class="project-meta">[Category] · [Year]</p>
+                  <p>[One sentence on the problem you solved and the result you got.]</p>
+                </div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+
+            <article class="project-card stagger">
+              <div class="project-media">
+                <span class="project-number">04</span>
+                <div class="project-placeholder">[Project image]</div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <h3>[Project name]</h3>
+                  <p class="project-meta">[Category] · [Year]</p>
+                  <p>[One sentence on the problem you solved and the result you got.]</p>
+                </div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section container" id="about">
+          <div class="about-layout">
+            <div class="photo-box">[Your photo]</div>
+
+            <div class="about-copy">
+              <p class="section-kicker">02 — About</p>
+              <h2>Calm process, sharp details.</h2>
+              <p>
+                [Two or three sentences about your background, what you care about, and what
+                you are like to work with.]
+              </p>
+
+              <div class="value-grid">
+                <article>
+                  <p class="value-index">01</p>
+                  <h3>Listen first</h3>
+                  <p>I start with the people and the problem, long before I open a design tool.</p>
+                </article>
+
+                <article>
+                  <p class="value-index">02</p>
+                  <h3>Prototype early</h3>
+                  <p>A rough, clickable idea beats a long document. I put real ones in front of real users fast.</p>
+                </article>
+
+                <article>
+                  <p class="value-index">03</p>
+                  <h3>Ship and refine</h3>
+                  <p>Launch is a checkpoint, not a finish line. I measure, listen, and keep improving.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="container contact-inner">
+            <p class="section-kicker">04 — Contact</p>
+            <h2>Have a project in mind? Let's make it great.</h2>
+
+            <div class="contact-actions">
+              <a class="button button-primary large" href="mailto:your@email.com">
+                your@email.com
+                <span aria-hidden="true">↗</span>
+              </a>
+
+              <nav class="social-links" aria-label="Social profiles">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Dribbble</a>
+              </nav>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> [Your Name]. Designed and built by hand.</p>
+          <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
